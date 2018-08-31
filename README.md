@@ -43,7 +43,7 @@ main.py --test --env MountainCarContinuous-v0 --model_path out/MountainCarContin
 It will render graphical interface.
 
 ## Result
-It turns out that tuning parameters are very important, especially `eps_decay`.  I use the simple linear noise decay such as `epsilon -= eps_decay` very episode.
+It turns out that tuning parameters are very important, especially `eps_decay`.  I use the simple linear noise decay such as `epsilon -= eps_decay` every episode.
 
 - Pendulum-v0
 
