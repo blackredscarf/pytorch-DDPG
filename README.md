@@ -11,21 +11,22 @@ Using pytorch to implement [Deep Deterministic Policy Gradient(DDPG)](https://ar
 main.py --train --env MountainCarContinuous-v0 --cuda
 ```
 Parameters:
-|Parameters | description|
-|-|-|
-|  --train|  train model |
-|  --test|  test model |
-|  --retrain |      retrain model
-|  --retrain_model |   retrain model path|
-|  --env|        gym environment name|
-|  --episodes| train episodes |
-|  --eps_decay| noise epsilon decay |
-|  --cuda|                use cuda |
+
+|Parameters    | description        |
+|---------     |-----------         |
+|  --train     |  train model       |
+|  --test      |  test model        |
+|  --retrain   |      retrain model |
+|  --retrain_model |   retrain model path   |
+|  --env       |        gym environment name|
+|  --episodes  | train episodes             |
+|  --eps_decay | noise epsilon decay        |
+|  --cuda      |                use cuda    |
 |  --model_path|    if test mode, import the model |
-|  --record       |   record the video |
+|  --record    |   record the video                  |
 |  --record_ep_interval   | record episodes interval |
-|  --checkpoint        |  use model checkpoint |
-|  --checkpoint_interval |    checkpoint interval |
+|  --checkpoint           |  use model checkpoint    |
+|  --checkpoint_interval  |    checkpoint interval   |
 
 (more parameters see the file)
 
